@@ -12,7 +12,8 @@ p.heading{
     padding-top: 8%;
     text-justify: auto;
     text-align:center;
-    font-size: 60px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 300%;
 }
 img{
     width: 100%;
@@ -24,22 +25,25 @@ img{
 input{ 
     padding: 10px 15px;
     margin-top: 1%;
-    margin-left: 34%;
-    font-size: 20px;
+    margin-left: 35%;
+    font-size: 100%;
     position: absolute;
     width: 24%;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
     border: 1px solid blue;
     align-items: center;
+    justify-content: center;
 }
 #submit{
     padding: 10px 15px;
     margin-top: 1%;
     margin-right: 34%;
-    font-size: 20px;
+    font-size: 100%;
     float: right;
     border-top-right-radius: 20px;
+    justify-content: center;
+    align-items: center;
     border-bottom-right-radius: 20px;
     border: 1px solid;
 }
