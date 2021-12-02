@@ -27,12 +27,11 @@ input{
     margin-left: 34%;
     font-size: 20px;
     position: absolute;
-    width: 30%;
-    border-radius: 20px;
-    border-radius: 20px;
+    width: 24%;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
     border: 1px solid blue;
     align-items: center;
-    z-index:-1;
 }
 #submit{
     padding: 10px 15px;
@@ -43,7 +42,6 @@ input{
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
     border: 1px solid;
-
 }
 #content{
     margin-top: 30%;
